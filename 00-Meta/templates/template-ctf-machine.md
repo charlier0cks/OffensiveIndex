@@ -1,13 +1,14 @@
 ---
-platform: 
-name: 
-os: 
-difficulty: 
-status: todo # todo / in-progress / rooted 
-ip: 
-date: 
-tags: [ctf] 
-techniques: [] # link technique notes, e.g. "[[kerberoasting]]"
+platform:
+name:
+os:
+difficulty:
+status: todo
+ip:
+date: "{{date}}"
+tags:
+  - ctf
+techniques: []
 ---
 # {{title}}
 

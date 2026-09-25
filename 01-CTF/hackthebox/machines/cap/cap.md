@@ -5,14 +5,14 @@ os: linux
 difficulty: easy
 status: todo
 ip:
-date: "{{date}}"
+date: 2026-09-25
 tags:
   - ctf
 techniques: []
 ---
 # cap
 
-![](assets/Pasted%20image%2020260924235619.png)
+![](assets/Pasted%20image%2020260925000510.png)
 
 > [!info] Box Info
 > - **Platform: HackTheBox**
