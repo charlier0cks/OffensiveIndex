@@ -43,7 +43,7 @@ Service Info: OSs: Unix, Linux; CPE: cpe:/o:linux:linux_kernel
 
 ### Walking The Application
 
-Upon visiting, the application returns a dashboard with a user, `nathan`', session.
+Upon visiting, the application returns a dashboard with a session as the user nathan.
 The application has three distinct features on its dashboard
 - Download PCAP file
 - View ifconfig output
