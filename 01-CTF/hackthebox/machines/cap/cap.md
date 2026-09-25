@@ -8,8 +8,8 @@ ip: 10.129.142.85
 date: 2026-09-25
 tags:
   - ctf
-  - "#linux-capabilities"
-  - "#idor"
+  - idor
+  - linux-capabilities
 techniques:
   - linux capabilities
   - idor
