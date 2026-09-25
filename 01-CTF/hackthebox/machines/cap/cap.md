@@ -44,6 +44,7 @@ Service Info: OSs: Unix, Linux; CPE: cpe:/o:linux:linux_kernel
 ### Walking The Application
 
 Upon visiting, the application returns a dashboard with a session as the user nathan.
+
 The application has three distinct features on its dashboard
 - Download PCAP file
 - View ifconfig output
@@ -58,6 +59,7 @@ The Security Snapshot feature makes two requests.
 
 The response for /data/-id- contains a download button that calls /download/-id-
 This downloads a PCAP file to your machine.
+
 Test case:
 - Attempt previous ids to dig through older PCAP files
 ## Foothold / Initial Access
@@ -73,6 +75,7 @@ These credentials worked via ftp, but attempting to reuse these credentials via 
 ## Privilege Escalation
 
 After thorough enumeration, I came to one discovery. In the webapp's root directory, the app.py file shows that nathan changes the uid to 0. 
+
 Test case:
 - Look for binary capabilities as a privesc vector
 
