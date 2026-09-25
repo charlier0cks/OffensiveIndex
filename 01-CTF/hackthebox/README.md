@@ -3,6 +3,8 @@
 Each box lives in `machines/<box-name>/` with its note and an `assets/` folder for
 screenshots. Challenges go under `challenges/`.
 
+[Cap (Easy)](machines/cap)
+
 ## Machine Tracker
 
 ```dataview
