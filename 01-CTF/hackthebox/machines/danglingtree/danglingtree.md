@@ -3,11 +3,16 @@ platform: hackthebox
 name: danglingtree
 os: windows
 difficulty: medium
-status: todo
+status: rooted
 ip: 10.129.143.253
 date: 2026-09-26
 tags:
   - ctf
+  - adcs
+  - decompile
+  - dnspy
+  - rdp
+  - esc1
 techniques: []
 ---
 # danglingtree

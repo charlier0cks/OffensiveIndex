@@ -4,6 +4,7 @@ Each box lives in `machines/<box-name>/` with its note and an `assets/` folder f
 screenshots. Challenges go under `challenges/`.
 
 [Cap (Easy)](machines/cap/cap.md)
+[DanglingTree (Medium)](machines/danglingtree/danglingtree.md)
 
 ## Machine Tracker
 
