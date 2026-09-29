@@ -336,7 +336,7 @@ So our jake.h user has CREATE_CHILD for the "Certificate Templates" container (r
 
 Digging into what this means (without common sense), I found a MC learn thread that talks about "accidentally" deleting a template.
 
-[thread]([accidentally deleted the CA certificate template - Microsoft Q&A](https://learn.microsoft.com/en-us/answers/questions/1280198/accidentally-deleted-the-ca-certificate-template))
+[accidentally deleted the CA certificate template - Microsoft Q&A](https://learn.microsoft.com/en-us/answers/questions/1280198/accidentally-deleted-the-ca-certificate-template)
 
 One user replies with:
 
