@@ -213,8 +213,8 @@ gci -fi settings.json -R | % {(gc -raw $_.FullName | convertfrom-json).settings.
 Now the question is, how do we crack them?
 Digging into smartermail and how to decrypt the enc passwords results in two articles by "GIRONSEC":
 
-[Cracking SmarterMail Hashes](https://www.gironsec.com/blog/2012/08/cracking-smartermail-hashes/)
-[SmarterMail Password Decryption Updates](https://www.gironsec.com/blog/2016/05/smartermail-password-decryption-updates/)
+- [Cracking SmarterMail Hashes](https://www.gironsec.com/blog/2012/08/cracking-smartermail-hashes/)
+- [SmarterMail Password Decryption Updates](https://www.gironsec.com/blog/2016/05/smartermail-password-decryption-updates/)
 
 The more informative one was the "Cracking SmarterMail Hashes" post.
 
