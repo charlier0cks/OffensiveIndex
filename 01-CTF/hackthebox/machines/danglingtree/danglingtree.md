@@ -99,8 +99,8 @@ In the C:\ directory, I see the SmarterMail folder that stands out to me. From m
 ![](assets/Pasted%20image%2020260927022031.png)
 
 After doing some research on SmarterMail, I found its vulnerable to unauthenticated RCE.
-[CVE-2026-24423]([CVE-2026-24423 - SmarterTools SmarterMail Remote Code Execution Vulnerability - CYFIRMA](https://www.cyfirma.com/research/cve-2026-24423-smartertools-smartermail-remote-code-execution-vulnerability/))
-[Malicious Hub]([aavamin/CVE-2026-24423: CVE-2026-24423 exp](https://github.com/aavamin/CVE-2026-24423))
+- [CVE-2026-24423](https://www.cyfirma.com/research/cve-2026-24423-smartertools-smartermail-remote-code-execution-vulnerability/)
+- [Malicious Hub](https://github.com/aavamin/CVE-2026-24423)
 
 From the article, this is the attack flow:
 
