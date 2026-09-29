@@ -24,8 +24,6 @@ techniques: []
 ```bash 
 
 ```
-## Enumeration
-
 ## Foothold / Initial Access
 
 ## Privilege Escalation
