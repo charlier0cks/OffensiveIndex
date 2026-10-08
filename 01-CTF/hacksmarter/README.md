@@ -3,6 +3,7 @@
 Each box/range lives in `machines/<box-name>/` with its note and an `assets/` folder for
 screenshots.
 
+- [Bitstream (Easy)](machines/bitstream/bitstream.md)
 ## Tracker
 
 ```dataview
