@@ -61,7 +61,7 @@ features - 200
 quote - 200
 pricing - 200
 ```
-## Getting Joey's Session 
+## Getting Joey's Session
 
 Manually walking the application reveals to important pages that we can now threat model/brainstorm. Messing around with these two endpoints gives me a few test cases.
 - Portal Login
@@ -70,7 +70,7 @@ Manually walking the application reveals to important pages that we can now thre
 	- SSTI via Error Parameter?
 	- XSS via Error Parameter?
 - Get a Quote Page
-	- Blind XSS?
+	- Blind XSS??
 
 ![](assets/Pasted%20image%2020261002214746.png)
 
