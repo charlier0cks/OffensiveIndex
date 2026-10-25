@@ -70,7 +70,7 @@ Manually walking the application reveals to important pages that we can now thre
 	- SSTI via Error Parameter?
 	- XSS via Error Parameter?
 - Get a Quote Page
-	- Blind XSS?
+	- Blind XSS??
 
 ![](assets/Pasted%20image%2020261002214746.png)
 
