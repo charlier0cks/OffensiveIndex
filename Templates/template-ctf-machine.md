@@ -3,7 +3,6 @@ platform:
 name:
 os:
 difficulty:
-ip:
 date: "{{date}}"
 tags:
   - ctf
