@@ -83,9 +83,7 @@ Clicking on the URL opened up the Edge browser. I was able to display the conten
 
 [ikarus23 - Kiosk Mode Breakout](https://github.com/ikarus23/kiosk-mode-breakout)
 
-```
-The first step could be to e.g. find a link somewhere in the main application that is clickable. By pressing on it a web browser window might open. The second step is to find a way from that popup/window to critical applications like the cmd.exe. In the example of previously opened edge browser it could be: press the three dots (menu) -> chose "Downloads" -> press the folder symbol (open downloads folder) -> navigate in the file browser to C:\windows\system32 and double click on osk.exe -> then double click on cmd.exe. Now you have command line interface with a full keyboard on a device that might only have a touchscreen.
-```
+>The first step could be to e.g. find a link somewhere in the main application that is clickable. By pressing on it a web browser window might open. The second step is to find a way from that popup/window to critical applications like the cmd.exe. In the example of previously opened edge browser it could be: press the three dots (menu) -> chose "Downloads" -> press the folder symbol (open downloads folder) -> navigate in the file browser to C:\windows\system32 and double click on osk.exe -> then double click on cmd.exe. Now you have command line interface with a full keyboard on a device that might only have a touchscreen.
 
 However, I look for powershell at *c:/windows/syswow64/windowspowershell/v1.0/powershell.exe*
 
