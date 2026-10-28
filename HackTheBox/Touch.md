@@ -42,10 +42,10 @@ PORT     STATE SERVICE       VERSION
 Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
 ```
 ## Webapp
-#### Login Portal
+### Login Portal
 
 ![](assets/Pasted%20image%2020261025150930.png)
-#### Directory Fuzzing
+### Directory Fuzzing
 
 ```
 login            [Status: 200, Size: 3572, Words: 122, Lines: 3, Duration: 19ms]
@@ -89,7 +89,7 @@ However, I look for powershell at *c:/windows/syswow64/windowspowershell/v1.0/po
 
 ![](assets/Pasted%20image%2020261027230912.png)
 ## Privilege Escalation
-Found mysql credentials -> root:"HTB@irw4ys_DB!2026"
+Found mysql credentials -> *root:"HTB@irw4ys_DB!2026"*
 
 ![](assets/Pasted%20image%2020261027230922.png)
 
