@@ -17,7 +17,8 @@ tags:
 
 ![](assets/Pasted%20image%2020261027230631.png)
 
-> [!NOTE] Box Info
+> [!NOTE] 
+> Box Info:
 > - **Platform: HackTheBox**
 > - **OS: Windows**
 > - **Difficulty: Easy**
