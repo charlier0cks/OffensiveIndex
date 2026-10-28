@@ -15,7 +15,6 @@ tags:
 ---
 # Touch
 
-
 ![](assets/Pasted%20image%2020261027230631.png)
 
 > [!info] Box Info
@@ -27,7 +26,6 @@ tags:
 ---
 In the Layover machine, you uncovered a name and a booking confirmation code. Maybe they'll come in handy here? Jenny Crawford/KS7X2M
 ## Recon
----
 ### Nmap
 
 ``` 
@@ -57,7 +55,6 @@ api              [Status: 403, Size: 35, Words: 2, Lines: 1, Duration: 18ms]
 
 ```
 ## Initial Access
----
 In the login portal's source, there is a hint for the password.
 
 ![](assets/Pasted%20image%2020261027230742.png)
@@ -94,7 +91,6 @@ However, I look for powershell at *c:/windows/syswow64/windowspowershell/v1.0/po
 
 ![](assets/Pasted%20image%2020261027230912.png)
 ## Privilege Escalation
----
 Found mysql credentials -> root:"HTB@irw4ys_DB!2026"
 
 ![](assets/Pasted%20image%2020261027230922.png)
