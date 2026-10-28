@@ -11,7 +11,8 @@ tags:
 
 <!-- BOX IMAGE HERE-->
 
-> [!info] Box Info
+> [!NOTE]
+> Box Info:
 > - **Platform:**
 > - **OS:**
 > - **Difficulty:**
