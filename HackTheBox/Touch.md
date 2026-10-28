@@ -24,7 +24,7 @@ tags:
 
 ## Machine Information
 ---
-In the Layover machine, you uncovered a name and a booking confirmation code. Maybe they'll come in handy here? Jenny Crawford / KS7X2M
+In the Layover machine, you uncovered a name and a booking confirmation code. Maybe they'll come in handy here? Jenny Crawford/KS7X2M
 ## Recon
 ---
 ### Nmap
