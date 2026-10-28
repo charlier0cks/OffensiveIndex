@@ -15,7 +15,8 @@ tags:
 ---
 # Touch
 
-![[assets/Pasted image 20261025145434.png]]
+
+![](assets/Pasted%20image%2020261027230631.png)
 
 > [!info] Box Info
 > - **Platform: HackTheBox**
@@ -45,7 +46,7 @@ Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
 ## Webapp
 #### Login Portal
 
-![[assets/Pasted image 20261025150930.png]]
+![](assets/Pasted%20image%2020261025150930.png)
 #### Directory Fuzzing
 
 ```
@@ -59,29 +60,29 @@ api              [Status: 403, Size: 35, Words: 2, Lines: 1, Duration: 18ms]
 ---
 In the login portal's source, there is a hint for the password.
 
-![[assets/Pasted image 20261025151040.png]]
+![](assets/Pasted%20image%2020261027230742.png)
 
 From our previous enumeration, the serial number was found in the */api/status* endpoint.
 
-![[assets/Pasted image 20261025153140.png]]
+![](assets/Pasted%20image%2020261027230803.png)
 
 Using the serial number resulted in a successful login. The dashboard reveals a new set of credentials. *KioskUser:K!0sk2026#*
 
-![[assets/Pasted image 20261025153403.png]]
+![](assets/Pasted%20image%2020261027230821.png)
 
 These credentials ended up working via RDP.
 
-![[assets/Pasted image 20261025153907.png]]
+![](assets/Pasted%20image%2020261027230831.png)
 
-![[assets/Pasted image 20261025171224.png]]
+![](assets/Pasted%20image%2020261027230838.png)
 
 Entered correct information and came across a consistent error for the passport scan that fails to match the passport. Back in the dashboard I powered the scanner off and tried again and saw a different result.
 
-![[assets/Pasted image 20261025175729.png]]
+![](assets/Pasted%20image%2020261027230852.png)
 
 Clicking on the URL opened up the Edge browser. I was able to display the contents of a file.
 
-![[assets/Pasted image 20261025180446.png]]
+![](assets/Pasted%20image%2020261027230903.png)
 
 [ikarus23 - Kiosk Mode Breakout](https://github.com/ikarus23/kiosk-mode-breakout)
 
@@ -91,15 +92,14 @@ The first step could be to e.g. find a link somewhere in the main application th
 
 However, I look for powershell at *c:/windows/syswow64/windowspowershell/v1.0/powershell.exe*
 
-![[assets/Pasted image 20261027201831.png]]
-
+![](assets/Pasted%20image%2020261027230912.png)
 ## Privilege Escalation
 ---
 Found mysql credentials -> root:"HTB@irw4ys_DB!2026"
 
-![[assets/Pasted image 20261027202111.png]]
+![](assets/Pasted%20image%2020261027230922.png)
 
-![[assets/Pasted image 20261027202408.png]]
+![](assets/Pasted%20image%2020261027230930.png)
 
 Since we are the root user we can execute system commands by installing a malicious user-defined function (UDF) library.
 
@@ -107,14 +107,14 @@ Since we are the root user we can execute system commands by installing a malici
 
 During this process, one issue was that the secure-file-priv was set to NULL, meaning file import and export operations are disabled globally.
 
-![[assets/Pasted image 20261027212011.png]]
+![](assets/Pasted%20image%2020261027230938.png)
 
 I did notice we can write to the my.ini file and set secure_file_priv to *empty*. However, I still would need to restart the MySQL service and I do not have the permissions to do that.
 
 Fortunately, *Authenticated Users* have modify (M) permissions on the plugins folder. I can copy the malicious library into the folder.
 
-![[assets/Pasted image 20261027212301.png]]
+![](assets/Pasted%20image%2020261027230945.png)
 
 With this step satisfied, I can proceed with the last few steps that let us eventually add the *KioskUser* to the administrators local group.
 
-![[assets/Pasted image 20261027212447.png]]
+![](assets/Pasted%20image%2020261027230954.png)
